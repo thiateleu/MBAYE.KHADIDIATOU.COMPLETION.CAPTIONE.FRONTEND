@@ -1,8 +1,31 @@
-# React + Vite
+Thiateleu Cleaning Service Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview:
 
-Currently, two official plugins are available:
+The Thiateleu Cleaning Service Frontend is the client-side component of the Thiateleu Cleaning Service Application. It provides a user interface for booking services, viewing appointments, and managing client information. The frontend is built using React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
+
+Client Management: Create, update, and view client information.
+Service Booking: Book cleaning services, view available services.
+Appointment Management: View upcoming and past appointments.
+
+Technologies Used:
+
+Frontend: React, JavaScript, CSS
+-Build Tool: Vite
+Routing: React Router DOM
+API Integration: Fetch data from the backend API
+Axios
+
+Installation:
+
+git
+
+npm install
+npm run dev
+
+Troubleshooting:
+Failed to Fetch: Ensure that the backend server is running and API endpoints are correct.
+CORS Issues: Check if the backend server is properly configured to allow requests from the frontend.
+JSON Parsing Errors: Verify that the backend returns data in the correct format.
